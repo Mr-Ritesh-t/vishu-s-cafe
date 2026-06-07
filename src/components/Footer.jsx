@@ -1,6 +1,7 @@
 import { Flame, Phone, MapPin, Clock } from 'lucide-react';
 import { FaInstagram, FaFacebookF, FaWhatsapp, FaRegHeart } from 'react-icons/fa';
 import { ChevronRight } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 export default function Footer() {
   return (
@@ -53,23 +54,60 @@ export default function Footer() {
 
       {/* Main Footer (Black Bg) */}
       <div className="bg-[#111111] pt-12 pb-24 md:pb-6 px-4 lg:px-8">
-        <div className="w-[95%] mx-auto">
+        <div className="w-[95%]  mx-auto">
           <div className="flex flex-col md:flex-row justify-between gap-10 mb-10">
-            {/* Brand */}
-            <div className="md:w-1/4">
-              <div className="flex items-center gap-1 mb-2">
-                <Flame className="text-primary w-10 h-10 fill-primary" />
-                <div className="flex flex-col -gap-1">
-                  <h1 className="font-cursive text-3xl leading-none text-white tracking-wide">Vishu's</h1>
-                  <span className="text-xs text-white font-medium tracking-widest text-center">Cafe</span>
+            {/* Top row for Mobile (Brand & Map) */}
+            <div className="flex flex-row justify-between gap-4 md:gap-10 w-full md:w-[60%]">
+              {/* Brand */}
+              <div className="w-[45%] md:w-auto flex flex-col justify-center">
+                <div className="flex flex-col items-center md:items-start gap-2 mb-2">
+                  <img src={logo} alt="Vishu's Cafe" className="h-16 md:h-19 w-auto object-contain drop-shadow-md" />
+                  <p className="text-white text-[10px] mt-2 tracking-wider text-center md:text-left">Good Food. Great Mood.</p>
+                </div>
+                
+                <div className="flex justify-center md:justify-start gap-2 mt-4 md:mt-6">
+                   <div className="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-dark hover:bg-primary hover:text-white cursor-pointer transition-colors"><FaInstagram size={12} /></div>
+                   <div className="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-dark hover:bg-primary hover:text-white cursor-pointer transition-colors"><FaFacebookF size={12} /></div>
+                   <div className="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-dark hover:bg-primary hover:text-white cursor-pointer transition-colors"><FaWhatsapp size={12} /></div>
                 </div>
               </div>
-              <p className="text-white text-[10px] mt-2 tracking-wider">Good Food. Great Mood.</p>
-              
-              <div className="flex gap-2 mt-6">
-                 <div className="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-dark hover:bg-primary hover:text-white cursor-pointer transition-colors"><FaInstagram size={12} /></div>
-                 <div className="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-dark hover:bg-primary hover:text-white cursor-pointer transition-colors"><FaFacebookF size={12} /></div>
-                 <div className="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-dark hover:bg-primary hover:text-white cursor-pointer transition-colors"><FaWhatsapp size={12} /></div>
+
+              {/* Map Widget */}
+              <div className="w-[55%] md:flex-1 max-w-[300px] bg-[#1a1a1a] rounded-2xl shadow-lg border border-white/5 overflow-hidden flex flex-col">
+                <div className="w-full aspect-square md:aspect-auto md:h-32 relative">
+                  <iframe 
+                    src="https://maps.google.com/maps?q=Vishu's%20Cafe,%20Kannad,%20Maharashtra&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="100%" 
+                    style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg) contrast(80%)' }} 
+                    allowFullScreen="" 
+                    loading="lazy"
+                    title="Vishu's Cafe Location"
+                  ></iframe>
+                </div>
+                <div className="p-3 flex-1 flex flex-col justify-between">
+                  <div className="flex gap-1.5 mb-2 md:mb-0">
+                    <MapPin className="text-[#FFC107] w-3 h-3 md:w-4 md:h-4 flex-shrink-0 mt-0.5" />
+                    <div className="flex flex-col">
+                      <h4 className="text-white text-[10px] md:text-[11px] font-bold mb-0.5">Vishu's Cafe</h4>
+                      <p className="text-gray-400 text-[8px] md:text-[9px] leading-tight line-clamp-2">
+                        Shivaji Chowk, Kannad, Maharashtra 431103
+                      </p>
+                    </div>
+                  </div>
+                  <a 
+                    href="https://maps.app.goo.gl/y7hPd8DrMTn8nRu86" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-[#FFC107] text-black text-[9px] font-bold px-2 py-1.5 md:px-3 md:py-2 rounded-md flex items-center justify-center gap-1.5 hover:bg-[#e0a800] transition-colors w-full"
+                  >
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M10 20l4-16 4 4" />
+                      <path d="M10 20L6 8l4-4" />
+                    </svg>
+                    Get Directions
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -99,21 +137,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Newsletter */}
-            <div className="md:w-1/4">
-              <h4 className="text-accent font-bold text-[10px] tracking-wider mb-4">NEWSLETTER</h4>
-              <p className="text-gray-400 text-[10px] mb-4">Get updates on offers and new arrivals</p>
-              <div className="flex">
-                <input 
-                  type="email" 
-                  placeholder="Your email" 
-                  className="bg-transparent border border-gray-600 text-white text-[10px] px-3 py-2 w-full outline-none focus:border-accent"
-                />
-                <button className="bg-accent text-dark font-bold text-[10px] px-4 py-2 hover:bg-yellow-500 transition-colors">
-                  Subscribe
-                </button>
-              </div>
-            </div>
+           
           </div>
 
           <div className="text-center text-[8px] text-gray-500 pt-6 border-t border-white/10 relative">

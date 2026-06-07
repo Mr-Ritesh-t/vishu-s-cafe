@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useCart } from '../context/CartContext';
 import { menuData } from '../data/menuData';
-import { Plus } from 'lucide-react';
+import { Plus, ChevronRight } from 'lucide-react';
 
 export default function Categories() {
   const [activeCategory, setActiveCategory] = useState(null);
@@ -18,29 +18,59 @@ export default function Categories() {
     <section className="relative z-20 w-full md:w-[95%] mx-auto px-0 md:px-4 lg:px-8 -mt-6 md:mt-6 mb-8">
       <div className="bg-white rounded-[40px] md:rounded-2xl shadow-[0_10px_40px_-10px_rgba(0,0,0,0.1)] py-8 md:py-6 px-4 md:px-8 transition-all duration-300">
         
+        {/* Section Header */}
+        <div className="text-center mb-10 flex flex-col items-center">
+          <div className="flex items-center gap-2 text-primary font-cursive text-xl mb-1">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="opacity-80">
+              <path d="M17 3l4 4-4 4" />
+              <path d="M3 17l4-4-4-4" />
+              <path d="M21 7H7a4 4 0 0 0-4 4v0" />
+            </svg>
+            Explore Our Menu
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="opacity-80 scale-x-[-1]">
+              <path d="M17 3l4 4-4 4" />
+              <path d="M3 17l4-4-4-4" />
+              <path d="M21 7H7a4 4 0 0 0-4 4v0" />
+            </svg>
+          </div>
+          <h2 className="text-[28px] md:text-4xl font-black text-dark mb-2 tracking-tight">What would you like to eat?</h2>
+          <p className="text-gray-500 text-sm md:text-base">Fresh ingredients. Perfect taste.</p>
+        </div>
+
         {/* Horizontal Category Icons */}
-        <div className="flex overflow-x-auto hide-scrollbar gap-6 pt-4 pb-4 px-2 md:justify-center">
-          {menuData.map((category, index) => (
-            <motion.div
-              key={category.id}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.05 }}
-              onClick={() => handleCategoryClick(category.id)}
-              className="flex flex-col items-center gap-3 cursor-pointer group min-w-[70px]"
-            >
-              <div className={`w-16 h-16 rounded-full flex items-center justify-center transition-all shadow-sm group-hover:shadow-md group-hover:scale-110 text-3xl
-                ${activeCategory === category.id ? 'bg-primary text-white scale-110 shadow-md' : 'bg-gray-50'}`}
+        <div className="relative">
+          <div className="flex overflow-x-auto hide-scrollbar gap-4 md:gap-6 pb-6 px-2 md:justify-center items-end">
+            {menuData.map((category, index) => (
+              <motion.div
+                key={category.id}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.05 }}
+                onClick={() => handleCategoryClick(category.id)}
+                className="flex flex-col items-center gap-3 cursor-pointer px-1"
               >
-                {category.icon}
-              </div>
-              <span className={`text-[11px] md:text-sm font-bold whitespace-nowrap transition-colors
-                ${activeCategory === category.id ? 'text-primary' : 'text-gray-700 group-hover:text-primary'}`}
-              >
-                {category.category}
-              </span>
-            </motion.div>
-          ))}
+                <div className={`w-[76px] h-[76px] rounded-[24px] flex items-center justify-center transition-all duration-300 text-[36px]
+                  ${activeCategory === category.id 
+                    ? 'bg-gradient-to-b from-white to-orange-100 border-2 border-primary shadow-sm' 
+                    : 'bg-white shadow-[0_4px_12px_rgba(0,0,0,0.06)] hover:shadow-[0_6px_16px_rgba(0,0,0,0.1)] border-2 border-transparent'}`}
+                >
+                  <div className="transition-transform duration-300 hover:scale-105">
+                    {category.icon}
+                  </div>
+                </div>
+                <span className={`text-[13px] md:text-[14px] font-bold whitespace-nowrap transition-colors
+                  ${activeCategory === category.id ? 'text-primary' : 'text-gray-800'}`}
+                >
+                  {category.category}
+                </span>
+              </motion.div>
+            ))}
+          </div>
+          
+          {/* Mobile Scroll Indicator */}
+          <div className="md:hidden absolute right-0 top-[40%] -translate-y-1/2 bg-gradient-to-l from-white via-white/90 to-transparent w-16 h-20 pointer-events-none flex items-center justify-end pr-1">
+            <ChevronRight className="text-gray-400 animate-pulse" size={24} />
+          </div>
         </div>
 
         {/* Expanding Menu Drawer */}
@@ -111,10 +141,10 @@ function MenuItem({ item, hasSizes, addToCart }) {
       {/* Right Content */}
       <div className="flex-1 p-3 sm:p-4 flex flex-col justify-center">
         {/* Header: Name and Bestseller */}
-        <div className="flex justify-between items-start mb-1 gap-2">
-          <h4 className="font-bold text-dark text-base sm:text-lg leading-tight">{item.name}</h4>
+        <div className="flex justify-between items-start mb-1 gap-2 w-full">
+          <h4 className="font-bold text-dark text-base sm:text-lg leading-tight flex-1 min-w-0 pr-2 break-words">{item.name}</h4>
           {item.isBestSeller && (
-            <div className="bg-[#FF4500] text-white text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full flex items-center gap-1 flex-shrink-0">
+            <div className="bg-[#FF4500] text-white text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full flex items-center gap-1 flex-shrink-0 mt-0.5">
               ★ BEST SELLER
             </div>
           )}

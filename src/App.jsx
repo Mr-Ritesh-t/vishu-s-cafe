@@ -23,9 +23,11 @@ function App() {
           <div id="home">
             <HeroSection />
           </div>
-          <Categories />
+          <div id="menu">
+            <Categories />
+          </div>
           <div className="w-[95%] mx-auto flex flex-col gap-12 pb-12">
-            <div id="menu">
+            <div id="popular">
               <PopularItems />
             </div>
             <div id="offers">

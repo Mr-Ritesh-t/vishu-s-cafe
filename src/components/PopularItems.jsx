@@ -51,7 +51,10 @@ export default function PopularItems() {
           Most <span className="text-primary italic">Loved</span>
           <FaRegHeart className="ml-3 text-primary" size={20} />
         </h2>
-        <button className="bg-accent text-dark font-bold text-[10px] py-1.5 px-3 rounded-full flex items-center gap-1">
+        <button 
+          onClick={() => document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' })}
+          className="bg-accent text-dark font-bold text-[10px] py-1.5 px-3 rounded-full flex items-center gap-1"
+        >
           View All <ChevronRight size={12} />
         </button>
       </div>
@@ -66,7 +69,10 @@ export default function PopularItems() {
         <p className="text-gray-500 text-xs mb-6 max-w-[200px]">
           Handpicked favorites that our customers just can't stop loving.
         </p>
-        <button className="border border-gray-300 text-gray-800 font-bold text-xs py-2 px-4 rounded-full flex items-center gap-2 hover:bg-gray-50 transition-colors">
+        <button 
+          onClick={() => document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' })}
+          className="border border-gray-300 text-gray-800 font-bold text-xs py-2 px-4 rounded-full flex items-center gap-2 hover:bg-gray-50 transition-colors"
+        >
           View Full Menu <ChevronRight size={14} />
         </button>
       </div>
