@@ -19,7 +19,7 @@ export default function AboutSection() {
 
         <div className="w-full h-40 rounded-2xl overflow-hidden relative shadow-inner">
           <img 
-            src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop" 
+            src="/cafe.png" 
             alt="Cafe Interior" 
             className="w-full h-full object-cover filter brightness-75"
           />
@@ -54,7 +54,7 @@ export default function AboutSection() {
         {/* Middle Image */}
         <div className="lg:w-5/12">
           <img 
-            src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop" 
+            src="/cafe.png" 
             alt="Cafe Interior" 
             className="w-full h-48 lg:h-full min-h-[200px] object-cover rounded-xl shadow-md"
           />
