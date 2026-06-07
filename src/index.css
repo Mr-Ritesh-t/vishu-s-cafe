@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Caveat:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #E33225;
+  --color-accent: #FDBE34;
+  --color-dark: #111111;
+  --color-light: #FFFFFF;
+  --color-gray-light: #F8F9FA;
+  --color-text: #222222;
+  
+  --font-sans: 'Poppins', sans-serif;
+  --font-cursive: 'Caveat', cursive;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-text font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
