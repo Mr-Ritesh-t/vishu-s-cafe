@@ -113,23 +113,30 @@ export default function Banners() {
       </div>
 
       <div className="flex-1 lg:flex-[1.2] flex gap-4 h-36 lg:h-auto">
-        {/* Weekend Offer */}
+        {/* Wafers Bhel Promo */}
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className="flex-1 bg-[#111111] rounded-xl p-4 flex flex-col justify-center items-center text-center shadow-sm"
+          className="flex-1 bg-[#111111] rounded-xl p-4 flex flex-col justify-center items-center text-center shadow-sm relative overflow-hidden"
         >
-          <div className="flex flex-col md:flex-row items-center gap-4">
+          <div className="flex flex-col md:flex-row items-center gap-4 z-10">
              <div className="flex flex-col items-center md:items-end">
-               <h4 className="text-accent text-lg lg:text-xl font-bold leading-none mb-1">WEEKEND</h4>
-               <h4 className="text-white text-lg lg:text-xl font-bold leading-none">OFFER</h4>
+               <h4 className="text-accent text-lg lg:text-xl font-bold leading-none mb-1">NEW</h4>
+               <h4 className="text-white text-lg lg:text-xl font-bold leading-none">LAUNCH</h4>
              </div>
              <div className="h-full w-px bg-white/20 hidden md:block"></div>
-             <div className="flex flex-col items-start">
-               <span className="text-white text-[10px] tracking-widest">FLAT</span>
-               <div className="text-3xl lg:text-4xl font-black text-accent leading-none">15% <span className="text-sm font-bold">OFF</span></div>
-               <span className="text-white/80 text-[10px] tracking-widest mt-1">ON ALL ORDERS</span>
+             <div className="flex flex-col items-start text-left">
+               <span className="text-white text-[12px] font-bold tracking-widest uppercase mb-1">Wafers Bhel</span>
+               <div className="flex items-center gap-2">
+                 <div className="text-3xl lg:text-4xl font-black text-accent leading-none">₹39</div>
+                 <button 
+                   onClick={() => addToCart({ id: 'sp6', name: 'Wafers Bhel', price: 39, image: 'https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=400&auto=format&fit=crop' })}
+                   className="bg-accent text-dark font-bold text-[8px] px-2 py-1 rounded-full hover:scale-105 transition-transform"
+                 >
+                   ADD TO CART
+                 </button>
+               </div>
              </div>
           </div>
         </motion.div>

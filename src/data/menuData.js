@@ -13,8 +13,8 @@ export const menuData = [
           "Medium": 159,
           "Large": 209
         },
-        "description": "Classic delight with 100% real mozzarella cheese & fresh basil.",
-        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=600&auto=format&fit=crop",
+        "description": "Classic cheese pizza with rich mozzarella",
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
         "isBestSeller": true
       },
       {
@@ -25,8 +25,8 @@ export const menuData = [
           "Medium": 159,
           "Large": 209
         },
-        "description": "Delicious combination of onions, capsicum, olives & cheese.",
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
+        "description": "Cheese pizza topped with fresh onions",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=600&auto=format&fit=crop",
         "isBestSeller": false
       },
       {
@@ -37,8 +37,8 @@ export const menuData = [
           "Medium": 179,
           "Large": 229
         },
-        "description": "Loaded with fresh veggies, paneer & mozzarella cheese.",
-        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=600&auto=format&fit=crop",
+        "description": "Capsicum, onion, tomato & cheese",
+        "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=600&auto=format&fit=crop",
         "isBestSeller": true
       },
       {
@@ -49,8 +49,8 @@ export const menuData = [
           "Medium": 279,
           "Large": 329
         },
-        "description": "Double cheese with mozzarella burst in every bite.",
-        "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=600&auto=format&fit=crop",
+        "description": "Double cheese loaded pizza",
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=600&auto=format&fit=crop",
         "isBestSeller": true
       },
       {
@@ -61,8 +61,8 @@ export const menuData = [
           "Medium": 179,
           "Large": 229
         },
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cheese paneer made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=600&auto=format&fit=crop",
+        "description": "Loaded with paneer and cheese",
         "isBestSeller": false
       },
       {
@@ -73,8 +73,8 @@ export const menuData = [
           "Medium": 179,
           "Large": 229
         },
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared tandoori paneer made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1552539618-7eec9b4d1796?q=80&w=600&auto=format&fit=crop",
+        "description": "Spicy tandoori paneer topping",
         "isBestSeller": false
       },
       {
@@ -85,8 +85,8 @@ export const menuData = [
           "Medium": 179,
           "Large": 229
         },
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared zesty paneer spicy made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1576458088443-04a19bb13da6?q=80&w=600&auto=format&fit=crop",
+        "description": "Paneer with spicy Indian flavors",
         "isBestSeller": false
       },
       {
@@ -97,8 +97,8 @@ export const menuData = [
           "Medium": 179,
           "Large": 229
         },
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cheese corn made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=600&auto=format&fit=crop",
+        "description": "Sweet corn & extra cheese",
         "isBestSeller": false
       },
       {
@@ -109,8 +109,8 @@ export const menuData = [
           "Medium": 179,
           "Large": 229
         },
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared schezwan pizza made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1552539618-7eec9b4d1796?q=80&w=600&auto=format&fit=crop",
+        "description": "Spicy Schezwan sauce & cheese",
         "isBestSeller": false
       },
       {
@@ -121,8 +121,8 @@ export const menuData = [
           "Medium": 229,
           "Large": 289
         },
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared paneer corn made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=600&auto=format&fit=crop",
+        "description": "Paneer & sweet corn combo",
         "isBestSeller": false
       },
       {
@@ -133,8 +133,8 @@ export const menuData = [
           "Medium": 229,
           "Large": 289
         },
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared paneer makhani made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=600&auto=format&fit=crop",
+        "description": "Creamy makhani gravy with paneer",
         "isBestSeller": false
       },
       {
@@ -145,8 +145,8 @@ export const menuData = [
           "Medium": 269,
           "Large": 319
         },
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared veg farm house made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1552539618-7eec9b4d1796?q=80&w=600&auto=format&fit=crop",
+        "description": "Loaded with fresh vegetables",
         "isBestSeller": false
       },
       {
@@ -157,8 +157,8 @@ export const menuData = [
           "Medium": 269,
           "Large": 319
         },
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared veg mexicana made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1552539618-7eec9b4d1796?q=80&w=600&auto=format&fit=crop",
+        "description": "Mexican spices & crunchy veggies",
         "isBestSeller": false
       },
       {
@@ -169,8 +169,8 @@ export const menuData = [
           "Medium": 269,
           "Large": 319
         },
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared vishu's special pizza made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=600&auto=format&fit=crop",
+        "description": "Signature chef special pizza",
         "isBestSeller": false
       }
     ]
@@ -186,15 +186,15 @@ export const menuData = [
         "name": "Classic Burger",
         "price": 49,
         "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared classic burger made with premium ingredients.",
+        "description": "Crispy veggie patty burger",
         "isBestSeller": true
       },
       {
         "id": "b2",
         "name": "Mayo Overloaded Burger",
         "price": 59,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared mayo overloaded burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?q=80&w=600&auto=format&fit=crop",
+        "description": "Loaded with creamy mayo",
         "isBestSeller": true
       },
       {
@@ -202,95 +202,95 @@ export const menuData = [
         "name": "Spicy Mayo Burger",
         "price": 59,
         "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared spicy mayo burger made with premium ingredients.",
+        "description": "Mayo burger with spicy kick",
         "isBestSeller": false
       },
       {
         "id": "b4",
         "name": "Cheesy Burger",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cheesy burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?q=80&w=600&auto=format&fit=crop",
+        "description": "Burger topped with cheese",
         "isBestSeller": false
       },
       {
         "id": "b5",
         "name": "Spicy Corn Chat Burger",
         "price": 79,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared spicy corn chat burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?q=80&w=600&auto=format&fit=crop",
+        "description": "Crunchy corn chat filling",
         "isBestSeller": false
       },
       {
         "id": "b6",
         "name": "Schezwan Burger",
         "price": 79,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared schezwan burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?q=80&w=600&auto=format&fit=crop",
+        "description": "Spicy Schezwan flavored burger",
         "isBestSeller": false
       },
       {
         "id": "b7",
         "name": "Spinach Corn Burger",
         "price": 89,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared spinach corn burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=600&auto=format&fit=crop",
+        "description": "Healthy spinach & corn patty",
         "isBestSeller": false
       },
       {
         "id": "b8",
         "name": "Chef Special Burger",
         "price": 99,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared chef special burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?q=80&w=600&auto=format&fit=crop",
+        "description": "Special recipe by chef",
         "isBestSeller": false
       },
       {
         "id": "b9",
         "name": "Double Tikki Burger",
         "price": 109,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared double tikki burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?q=80&w=600&auto=format&fit=crop",
+        "description": "Double crispy patty burger",
         "isBestSeller": false
       },
       {
         "id": "b10",
         "name": "Vishu's Special Burger",
         "price": 109,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared vishu's special burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?q=80&w=600&auto=format&fit=crop",
+        "description": "Signature burger of the cafe",
         "isBestSeller": false
       },
       {
         "id": "b11",
         "name": "Special Mexican Burger",
         "price": 119,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared special mexican burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?q=80&w=600&auto=format&fit=crop",
+        "description": "Mexican style spicy burger",
         "isBestSeller": false
       },
       {
         "id": "b12",
         "name": "Paneer Burger",
         "price": 119,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared paneer burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=600&auto=format&fit=crop",
+        "description": "Paneer patty with fresh veggies",
         "isBestSeller": false
       },
       {
         "id": "b13",
         "name": "Jumbo Burger",
         "price": 119,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared jumbo burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=600&auto=format&fit=crop",
+        "description": "Bigger burger for bigger hunger",
         "isBestSeller": false
       },
       {
         "id": "b14",
         "name": "Maharaja Special Burger",
         "price": 129,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared maharaja special burger made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?q=80&w=600&auto=format&fit=crop",
+        "description": "Premium loaded burger",
         "isBestSeller": false
       }
     ]
@@ -305,47 +305,47 @@ export const menuData = [
         "id": "f1",
         "name": "French Fries",
         "price": 79,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared french fries made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=600&auto=format&fit=crop",
+        "description": "Crispy salted fries",
         "isBestSeller": true
       },
       {
         "id": "f2",
         "name": "Peri Peri Fries",
         "price": 89,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared peri peri fries made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=600&auto=format&fit=crop",
+        "description": "Fries tossed in peri peri seasoning",
         "isBestSeller": true
       },
       {
         "id": "f3",
         "name": "Masala Peri Peri Fries",
         "price": 99,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared masala peri peri fries made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=600&auto=format&fit=crop",
+        "description": "Extra spicy masala fries",
         "isBestSeller": false
       },
       {
         "id": "f4",
         "name": "Classic Cheese Fries",
         "price": 99,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared classic cheese fries made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=600&auto=format&fit=crop",
+        "description": "Fries topped with cheese",
         "isBestSeller": false
       },
       {
         "id": "f5",
         "name": "Peri Peri Cheese Fries",
         "price": 109,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared peri peri cheese fries made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=600&auto=format&fit=crop",
+        "description": "Cheese & peri peri combo",
         "isBestSeller": false
       },
       {
         "id": "f6",
         "name": "Masala Cheese Peri Peri Fries",
         "price": 119,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=600&auto=format&fit=crop",
         "description": "Delicious and freshly prepared masala cheese peri peri fries made with premium ingredients.",
         "isBestSeller": false
       }
@@ -362,7 +362,7 @@ export const menuData = [
         "name": "Veg Grilled Sandwich",
         "price": 79,
         "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared veg grilled sandwich made with premium ingredients.",
+        "description": "Crispy grilled vegetable sandwich",
         "isBestSeller": true
       },
       {
@@ -370,7 +370,7 @@ export const menuData = [
         "name": "Cheese Grilled Sandwich",
         "price": 99,
         "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cheese grilled sandwich made with premium ingredients.",
+        "description": "Grilled sandwich with cheese",
         "isBestSeller": true
       },
       {
@@ -378,7 +378,7 @@ export const menuData = [
         "name": "Cheese Corn Sandwich",
         "price": 99,
         "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cheese corn sandwich made with premium ingredients.",
+        "description": "Sweet corn & cheese filling",
         "isBestSeller": false
       },
       {
@@ -386,7 +386,7 @@ export const menuData = [
         "name": "Tandoori Paneer Sandwich",
         "price": 109,
         "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared tandoori paneer sandwich made with premium ingredients.",
+        "description": "Tandoori paneer stuffing",
         "isBestSeller": false
       },
       {
@@ -394,7 +394,7 @@ export const menuData = [
         "name": "Club Sandwich",
         "price": 129,
         "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared club sandwich made with premium ingredients.",
+        "description": "Triple layer loaded sandwich",
         "isBestSeller": false
       }
     ]
@@ -410,7 +410,7 @@ export const menuData = [
         "name": "Red Sauce Pasta",
         "price": 129,
         "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared red sauce pasta made with premium ingredients.",
+        "description": "Tangy tomato sauce pasta",
         "isBestSeller": true
       },
       {
@@ -418,7 +418,7 @@ export const menuData = [
         "name": "White Sauce Pasta",
         "price": 129,
         "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared white sauce pasta made with premium ingredients.",
+        "description": "Creamy white sauce pasta",
         "isBestSeller": true
       }
     ]
@@ -434,7 +434,7 @@ export const menuData = [
         "name": "Plain Maggi",
         "price": 59,
         "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared plain maggi made with premium ingredients.",
+        "description": "Classic masala Maggi",
         "isBestSeller": true
       },
       {
@@ -442,7 +442,7 @@ export const menuData = [
         "name": "Masala Maggi",
         "price": 79,
         "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared masala maggi made with premium ingredients.",
+        "description": "Extra spicy masala flavor",
         "isBestSeller": true
       },
       {
@@ -450,7 +450,7 @@ export const menuData = [
         "name": "Cheese Maggi",
         "price": 89,
         "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cheese maggi made with premium ingredients.",
+        "description": "Cheesy loaded Maggi",
         "isBestSeller": false
       }
     ]
@@ -466,7 +466,7 @@ export const menuData = [
         "name": "Schezwan Momos",
         "price": 89,
         "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared schezwan momos made with premium ingredients.",
+        "description": "Spicy Schezwan fried momos",
         "isBestSeller": true
       },
       {
@@ -474,15 +474,15 @@ export const menuData = [
         "name": "Mix Veg Momos",
         "price": 89,
         "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared mix veg momos made with premium ingredients.",
+        "description": "Stuffed mixed vegetable momos",
         "isBestSeller": true
       },
       {
         "id": "mo3",
         "name": "Paneer Tikka Momos",
         "price": 99,
-        "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared paneer tikka momos made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=600&auto=format&fit=crop",
+        "description": "Paneer tikka flavored momos",
         "isBestSeller": false
       },
       {
@@ -490,7 +490,7 @@ export const menuData = [
         "name": "Cheese Corn Momos",
         "price": 99,
         "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cheese corn momos made with premium ingredients.",
+        "description": "Cheese & corn filling",
         "isBestSeller": false
       },
       {
@@ -498,7 +498,7 @@ export const menuData = [
         "name": "Kurkure Momos",
         "price": 129,
         "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared kurkure momos made with premium ingredients.",
+        "description": "Extra crispy crunchy momos",
         "isBestSeller": false
       }
     ]
@@ -521,7 +521,7 @@ export const menuData = [
         "id": "sp2",
         "name": "Veg Spring Roll (4 pcs)",
         "price": 89,
-        "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
         "description": "Delicious and freshly prepared veg spring roll (4 pcs) made with premium ingredients.",
         "isBestSeller": true
       },
@@ -529,7 +529,7 @@ export const menuData = [
         "id": "sp3",
         "name": "Cheese Corn Triangle (6 pcs)",
         "price": 89,
-        "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?q=80&w=600&auto=format&fit=crop",
         "description": "Delicious and freshly prepared cheese corn triangle (6 pcs) made with premium ingredients.",
         "isBestSeller": false
       },
@@ -537,7 +537,7 @@ export const menuData = [
         "id": "sp4",
         "name": "Cheesy Nuggets (6 pcs)",
         "price": 79,
-        "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?q=80&w=600&auto=format&fit=crop",
         "description": "Delicious and freshly prepared cheesy nuggets (6 pcs) made with premium ingredients.",
         "isBestSeller": false
       },
@@ -553,7 +553,7 @@ export const menuData = [
         "id": "sp6",
         "name": "Wafers Bhel",
         "price": 39,
-        "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?q=80&w=600&auto=format&fit=crop",
         "description": "Delicious and freshly prepared wafers bhel made with premium ingredients.",
         "isBestSeller": false
       }
@@ -570,15 +570,15 @@ export const menuData = [
         "name": "Blue Lagoon",
         "price": 59,
         "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared blue lagoon made with premium ingredients.",
+        "description": "Refreshing blue citrus mocktail",
         "isBestSeller": true
       },
       {
         "id": "mk2",
         "name": "Bubble Gum",
         "price": 59,
-        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared bubble gum made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=600&auto=format&fit=crop",
+        "description": "Sweet bubble gum flavor",
         "isBestSeller": true
       },
       {
@@ -586,30 +586,30 @@ export const menuData = [
         "name": "Cotton Candy",
         "price": 59,
         "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cotton candy made with premium ingredients.",
+        "description": "Candy flavored mocktail",
         "isBestSeller": false
       },
       {
         "id": "mk4",
         "name": "Kalla Khatta",
         "price": 59,
-        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared kalla khatta made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?q=80&w=600&auto=format&fit=crop",
+        "description": "Tangy Indian flavor drink",
         "isBestSeller": false
       },
       {
         "id": "mk5",
         "name": "Virgin Mojito",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared virgin mojito made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1556881286-fc6915169721?q=80&w=600&auto=format&fit=crop",
+        "description": "Mint & lemon refresher",
         "isBestSeller": false
       },
       {
         "id": "mk6",
         "name": "Fresh Jeera Soda",
         "price": 29,
-        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1587223962930-cb7f31384c19?q=80&w=600&auto=format&fit=crop",
         "description": "Delicious and freshly prepared fresh jeera soda made with premium ingredients.",
         "isBestSeller": false
       }
@@ -626,7 +626,7 @@ export const menuData = [
         "name": "Cold Coffee",
         "price": 69,
         "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cold coffee made with premium ingredients.",
+        "description": "Chilled coffee delight",
         "isBestSeller": true
       },
       {
@@ -634,7 +634,7 @@ export const menuData = [
         "name": "Thick Cold Coffee",
         "price": 99,
         "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared thick cold coffee made with premium ingredients.",
+        "description": "Extra thick & creamy coffee",
         "isBestSeller": true
       },
       {
@@ -642,7 +642,7 @@ export const menuData = [
         "name": "Cold Coffee with Crush",
         "price": 99,
         "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cold coffee with crush made with premium ingredients.",
+        "description": "Coffee topped with crush",
         "isBestSeller": false
       },
       {
@@ -650,7 +650,7 @@ export const menuData = [
         "name": "Cold Coffee with Ice Cream",
         "price": 109,
         "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cold coffee with ice cream made with premium ingredients.",
+        "description": "Coffee with vanilla ice cream",
         "isBestSeller": false
       }
     ]
@@ -666,23 +666,23 @@ export const menuData = [
         "name": "Oreo Shake",
         "price": 99,
         "image": "https://images.unsplash.com/photo-1572656306390-40a9fc3899f7?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared oreo shake made with premium ingredients.",
+        "description": "Creamy Oreo milkshake",
         "isBestSeller": true
       },
       {
         "id": "sh2",
         "name": "KitKat Shake",
         "price": 99,
-        "image": "https://images.unsplash.com/photo-1572656306390-40a9fc3899f7?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared kitkat shake made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=600&auto=format&fit=crop",
+        "description": "Chocolate KitKat shake",
         "isBestSeller": true
       },
       {
         "id": "sh3",
         "name": "Sitafal Shake",
         "price": 109,
-        "image": "https://images.unsplash.com/photo-1572656306390-40a9fc3899f7?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared sitafal shake made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=600&auto=format&fit=crop",
+        "description": "Fresh custard apple shake",
         "isBestSeller": false
       },
       {
@@ -690,15 +690,15 @@ export const menuData = [
         "name": "CAD-B Dark Choco",
         "price": 109,
         "image": "https://images.unsplash.com/photo-1572656306390-40a9fc3899f7?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cad-b dark choco made with premium ingredients.",
+        "description": "Rich dark chocolate shake",
         "isBestSeller": false
       },
       {
         "id": "sh5",
         "name": "CAD-M Milk Choco",
         "price": 109,
-        "image": "https://images.unsplash.com/photo-1572656306390-40a9fc3899f7?q=80&w=600&auto=format&fit=crop",
-        "description": "Delicious and freshly prepared cad-m milk choco made with premium ingredients.",
+        "image": "https://images.unsplash.com/photo-1587223962930-cb7f31384c19?q=80&w=600&auto=format&fit=crop",
+        "description": "Smooth milk chocolate shake",
         "isBestSeller": false
       }
     ]
@@ -769,7 +769,7 @@ export const menuData = [
         "id": "hb3",
         "name": "Hot Chocolate",
         "price": 49,
-        "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=600&auto=format&fit=crop",
         "description": "Delicious and freshly prepared hot chocolate made with premium ingredients.",
         "isBestSeller": false
       }

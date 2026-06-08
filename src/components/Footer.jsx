@@ -1,5 +1,5 @@
 import { Flame, Phone, MapPin, Clock } from 'lucide-react';
-import { FaInstagram, FaFacebookF, FaWhatsapp, FaRegHeart } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp, FaRegHeart } from 'react-icons/fa';
 import { ChevronRight } from 'lucide-react';
 import logo from '../assets/logo.png';
 
@@ -8,44 +8,44 @@ export default function Footer() {
     <footer className="mt-8">
       {/* Contact Info Row (White Bg) */}
       <div className="bg-white border-t border-gray-100 py-8 px-4 lg:px-8">
-        <div className="w-[95%] mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 items-start divide-x divide-gray-100">
+        <div className="w-[95%] mx-auto grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8 md:gap-6 items-start md:divide-x divide-gray-100">
           
-          <div className="flex items-start gap-3 pl-0">
-            <div className="text-accent mt-1"><Phone size={24} strokeWidth={1.5} /></div>
+          <div className="flex items-start gap-2 md:gap-3 pl-0">
+            <div className="text-accent mt-1"><Phone size={20} className="md:w-6 md:h-6" strokeWidth={1.5} /></div>
             <div className="flex flex-col">
-              <span className="font-bold text-[10px] text-gray-500 mb-1">CALL US</span>
-              <span className="text-sm font-bold text-dark">+91 93250 12345</span>
+              <span className="font-bold text-[9px] md:text-[10px] text-gray-500 mb-1">CALL US</span>
+              <span className="text-xs md:text-sm font-bold text-dark">+91 9082775127</span>
             </div>
           </div>
           
-          <div className="flex items-start gap-3 pl-6">
-            <div className="text-accent mt-1"><MapPin size={24} strokeWidth={1.5} /></div>
+          <div className="flex items-start gap-2 md:gap-3 pl-0 md:pl-6">
+            <div className="text-accent mt-1"><MapPin size={20} className="md:w-6 md:h-6" strokeWidth={1.5} /></div>
             <div className="flex flex-col">
-              <span className="font-bold text-[10px] text-gray-500 mb-1">LOCATION</span>
-              <span className="text-[10px] text-dark font-medium leading-snug">Vishu's Cafe, Kannad,<br/>Chhatrapati Sambhajinagar,<br/>Maharashtra 431103</span>
+              <span className="font-bold text-[9px] md:text-[10px] text-gray-500 mb-1">LOCATION</span>
+              <span className="text-[9px] md:text-[10px] text-dark font-medium leading-snug">Sahare Trade Centre, Sillod,<br/>Chhatrapati Sambhajinagar,<br/>Maharashtra 431112</span>
             </div>
           </div>
 
-          <div className="flex items-start gap-3 pl-6">
-            <div className="text-accent mt-1"><Clock size={24} strokeWidth={1.5} /></div>
+          <div className="flex items-start gap-2 md:gap-3 pl-0 md:pl-6">
+            <div className="text-accent mt-1"><Clock size={20} className="md:w-6 md:h-6" strokeWidth={1.5} /></div>
             <div className="flex flex-col">
-              <span className="font-bold text-[10px] text-gray-500 mb-1">OPENING HOURS</span>
-              <span className="text-[10px] text-dark font-medium leading-snug">10:00 AM - 11:00 PM<br/>(All Days Open)</span>
+              <span className="font-bold text-[9px] md:text-[10px] text-gray-500 mb-1">OPENING HOURS</span>
+              <span className="text-[9px] md:text-[10px] text-dark font-medium leading-snug">10:00 AM - 11:00 PM<br/>(All Days Open)</span>
             </div>
           </div>
 
-          <div className="flex items-start gap-3 pl-6 justify-between pr-4">
-             <div className="flex flex-col">
+          <div className="flex items-start gap-2 md:gap-3 pl-0 md:pl-6 justify-between md:justify-start lg:justify-between md:pr-4">
+             <div className="hidden lg:flex flex-col mr-4">
                <div className="flex justify-center w-full mb-2">
                  <FaRegHeart className="text-accent" />
                </div>
              </div>
-             <div className="flex flex-col items-center">
-              <span className="font-bold text-[10px] text-dark mb-2">FOLLOW US</span>
+             <div className="flex flex-col items-start md:items-center pl-6">
+              <span className="font-bold text-[9px] md:text-[10px] text-dark mb-2">FOLLOW US</span>
               <div className="flex gap-2">
-                <div className="w-6 h-6 rounded-full bg-dark flex items-center justify-center text-white hover:bg-primary cursor-pointer transition-colors"><FaInstagram size={12} /></div>
-                <div className="w-6 h-6 rounded-full bg-dark flex items-center justify-center text-white hover:bg-primary cursor-pointer transition-colors"><FaFacebookF size={12} /></div>
-                <div className="w-6 h-6 rounded-full bg-dark flex items-center justify-center text-white hover:bg-primary cursor-pointer transition-colors"><FaWhatsapp size={12} /></div>
+                <a href="https://www.instagram.com/vishus_cafe/" target="_blank" rel="noopener noreferrer" className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-dark flex items-center justify-center text-white hover:bg-primary cursor-pointer transition-colors"><FaInstagram size={10} className="md:w-3 md:h-3" /></a>
+
+                <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-dark flex items-center justify-center text-white hover:bg-primary cursor-pointer transition-colors"><FaWhatsapp size={10} className="md:w-3 md:h-3" /></div>
               </div>
              </div>
           </div>
@@ -66,8 +66,8 @@ export default function Footer() {
                 </div>
                 
                 <div className="flex justify-center md:justify-start gap-2 mt-4 md:mt-6">
-                   <div className="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-dark hover:bg-primary hover:text-white cursor-pointer transition-colors"><FaInstagram size={12} /></div>
-                   <div className="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-dark hover:bg-primary hover:text-white cursor-pointer transition-colors"><FaFacebookF size={12} /></div>
+                   <a href="https://www.instagram.com/vishus_cafe/" target="_blank" rel="noopener noreferrer" className="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-dark hover:bg-primary hover:text-white cursor-pointer transition-colors"><FaInstagram size={12} /></a>
+
                    <div className="w-6 h-6 rounded-full bg-accent flex items-center justify-center text-dark hover:bg-primary hover:text-white cursor-pointer transition-colors"><FaWhatsapp size={12} /></div>
                 </div>
               </div>
@@ -91,7 +91,7 @@ export default function Footer() {
                     <div className="flex flex-col">
                       <h4 className="text-white text-[10px] md:text-[11px] font-bold mb-0.5">Vishu's Cafe</h4>
                       <p className="text-gray-400 text-[8px] md:text-[9px] leading-tight line-clamp-2">
-                        Shivaji Chowk, Kannad, Maharashtra 431103
+                       Sahare Trade Centre, Sillod, Maharashtra 431112
                       </p>
                     </div>
                   </div>

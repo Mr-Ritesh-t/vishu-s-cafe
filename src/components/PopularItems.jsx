@@ -46,7 +46,7 @@ export default function PopularItems() {
   return (
     <section className="pt-8 md:pt-16 flex flex-col lg:flex-row gap-4 md:gap-8">
       {/* Mobile Title Row */}
-      <div className="lg:hidden flex justify-between items-center mb-1">
+      <div className="lg:hidden flex justify-between items-center mb-4">
         <h2 className="text-3xl font-cursive font-bold flex items-center gap-1.5 text-dark leading-none">
           Most <span className="text-primary italic">Loved</span>
           <FaRegHeart className="ml-3 text-primary" size={20} />
@@ -78,40 +78,47 @@ export default function PopularItems() {
       </div>
 
       {/* Right Cards */}
-      <div className="lg:w-4/5 flex overflow-x-auto md:grid md:grid-cols-3 lg:grid-cols-5 hide-scrollbar gap-4 md:gap-6 pb-4">
-        {items.map((item, index) => (
-          <motion.div
-            key={item.id}
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: index * 0.1 }}
-            className="min-w-[170px] md:min-w-0 bg-white rounded-2xl shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07)] border-none p-2 flex flex-col group cursor-pointer hover:shadow-md transition-all"
-          >
-            <div className="w-full h-36 rounded-xl overflow-hidden mb-3 relative">
-              <img 
-                src={item.image} 
-                alt={item.name} 
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              />
-              {item.tag && (
-                <div className={`absolute top-2 left-2 px-2 py-0.5 rounded-md text-[9px] font-bold ${item.tagColor}`}>
-                  {item.tag}
-                </div>
-              )}
-            </div>
-            <h4 className="font-bold text-[13px] mb-1 px-1 leading-tight line-clamp-2">{item.name}</h4>
-            <div className="flex items-center justify-between mt-auto pt-2 px-1">
-              <span className="text-lg font-bold text-primary">₹{item.price}</span>
-              <button 
-                onClick={(e) => { e.stopPropagation(); addToCart(item); }}
-                className="w-7 h-7 rounded-full bg-[#FF4500] text-white flex items-center justify-center hover:bg-red-600 shadow-md transition-colors"
-              >
-                <Plus size={16} className="font-bold" />
-              </button>
-            </div>
-          </motion.div>
-        ))}
+      <div className="lg:w-4/5 relative">
+        <div className="flex overflow-x-auto md:grid md:grid-cols-3 lg:grid-cols-5 hide-scrollbar gap-4 md:gap-6 pb-4 pr-6">
+          {items.map((item, index) => (
+            <motion.div
+              key={item.id}
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.1 }}
+              className="min-w-[170px] md:min-w-0 bg-white rounded-2xl shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07)] border-none p-2 flex flex-col group cursor-pointer hover:shadow-md transition-all"
+            >
+              <div className="w-full h-36 rounded-xl overflow-hidden mb-3 relative">
+                <img 
+                  src={item.image} 
+                  alt={item.name} 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                {item.tag && (
+                  <div className={`absolute top-2 left-2 px-2 py-0.5 rounded-md text-[9px] font-bold ${item.tagColor}`}>
+                    {item.tag}
+                  </div>
+                )}
+              </div>
+              <h4 className="font-bold text-[13px] mb-1 px-1 leading-tight line-clamp-2">{item.name}</h4>
+              <div className="flex items-center justify-between mt-auto pt-2 px-1">
+                <span className="text-lg font-bold text-primary">₹{item.price}</span>
+                <button 
+                  onClick={(e) => { e.stopPropagation(); addToCart(item); }}
+                  className="w-7 h-7 rounded-full bg-[#FF4500] text-white flex items-center justify-center hover:bg-red-600 shadow-md transition-colors"
+                >
+                  <Plus size={16} className="font-bold" />
+                </button>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+        
+        {/* Mobile Scroll Indicator */}
+        <div className="md:hidden absolute right-0 top-1/2 -translate-y-1/2 bg-gradient-to-l from-white via-white/80 to-transparent w-16 h-32 pointer-events-none flex items-center justify-end pr-1 z-10 -mt-2">
+          <ChevronRight className="text-gray-400 animate-pulse" size={24} />
+        </div>
       </div>
     </section>
   );

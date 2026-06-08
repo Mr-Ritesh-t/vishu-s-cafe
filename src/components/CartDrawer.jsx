@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Plus, Minus, ShoppingBag, ArrowRight } from 'lucide-react';
 import { useCart } from '../context/CartContext';
@@ -7,11 +7,18 @@ import { FaWhatsapp } from 'react-icons/fa';
 export default function CartDrawer() {
   const { isCartOpen, setIsCartOpen, cartItems, updateQuantity, removeFromCart, cartTotal } = useCart();
 
+  const [customerName, setCustomerName] = useState('');
+
   const handleCheckout = () => {
     if (cartItems.length === 0) return;
 
+    if (!customerName.trim()) {
+      alert("Please enter your name to proceed with the order.");
+      return;
+    }
+
     // Build the message
-    let message = `Hello Vishu's Cafe! I'd like to place an order:%0A%0A`;
+    let message = `Hello Vishu's Cafe! I'd like to place an order.%0A%0A*Name:* ${customerName.trim()}%0A%0A*Order Details:*%0A`;
     cartItems.forEach((item, index) => {
       const sizeText = item.size ? ` (${item.size})` : '';
       message += `${index + 1}. ${item.quantity}x ${item.name}${sizeText} - ₹${item.price * item.quantity}%0A`;
@@ -116,8 +123,18 @@ export default function CartDrawer() {
 
             {/* Footer / Checkout */}
             {cartItems.length > 0 && (
-              <div className="p-6 bg-white border-t border-gray-100 shadow-[0_-10px_40px_-10px_rgba(0,0,0,0.1)]">
-                <div className="flex items-center justify-between mb-4">
+              <div className="p-6 bg-white border-t border-gray-100 shadow-[0_-10px_40px_-10px_rgba(0,0,0,0.1)] flex flex-col gap-4">
+                <div>
+                  <label className="block text-sm font-bold text-gray-700 mb-2">Your Name</label>
+                  <input 
+                    type="text" 
+                    value={customerName}
+                    onChange={(e) => setCustomerName(e.target.value)}
+                    placeholder="Enter your name" 
+                    className="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#ff6b6b] focus:border-transparent transition-all"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
                   <span className="text-gray-500 font-medium">Subtotal</span>
                   <span className="text-xl font-black">₹{cartTotal}</span>
                 </div>
