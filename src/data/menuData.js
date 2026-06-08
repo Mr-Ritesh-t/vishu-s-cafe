@@ -409,7 +409,7 @@ export const menuData = [
         "id": "pa1",
         "name": "Red Sauce Pasta",
         "price": 129,
-        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Tangy tomato sauce pasta",
         "isBestSeller": true
       },
@@ -417,7 +417,7 @@ export const menuData = [
         "id": "pa2",
         "name": "White Sauce Pasta",
         "price": 129,
-        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Creamy white sauce pasta",
         "isBestSeller": true
       }
@@ -465,7 +465,7 @@ export const menuData = [
         "id": "mo1",
         "name": "Schezwan Momos",
         "price": 89,
-        "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Spicy Schezwan fried momos",
         "isBestSeller": true
       },
@@ -473,7 +473,7 @@ export const menuData = [
         "id": "mo2",
         "name": "Mix Veg Momos",
         "price": 89,
-        "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Stuffed mixed vegetable momos",
         "isBestSeller": true
       },
@@ -481,7 +481,7 @@ export const menuData = [
         "id": "mo3",
         "name": "Paneer Tikka Momos",
         "price": 99,
-        "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Paneer tikka flavored momos",
         "isBestSeller": false
       },
@@ -489,7 +489,7 @@ export const menuData = [
         "id": "mo4",
         "name": "Cheese Corn Momos",
         "price": 99,
-        "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Cheese & corn filling",
         "isBestSeller": false
       },
@@ -497,7 +497,7 @@ export const menuData = [
         "id": "mo5",
         "name": "Kurkure Momos",
         "price": 129,
-        "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Extra crispy crunchy momos",
         "isBestSeller": false
       }
@@ -513,7 +513,7 @@ export const menuData = [
         "id": "sp1",
         "name": "Cheese Garlic Bread (4 pcs)",
         "price": 89,
-        "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?q=80&w=1196&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Delicious and freshly prepared cheese garlic bread (4 pcs) made with premium ingredients.",
         "isBestSeller": true
       },
@@ -521,7 +521,7 @@ export const menuData = [
         "id": "sp2",
         "name": "Veg Spring Roll (4 pcs)",
         "price": 89,
-        "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1695712641569-05eee7b37b6d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Delicious and freshly prepared veg spring roll (4 pcs) made with premium ingredients.",
         "isBestSeller": true
       },
@@ -553,7 +553,7 @@ export const menuData = [
         "id": "sp6",
         "name": "Wafers Bhel",
         "price": 39,
-        "image": "https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1643892548578-d0a056dd2ee5?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Delicious and freshly prepared wafers bhel made with premium ingredients.",
         "isBestSeller": false
       }
@@ -625,7 +625,7 @@ export const menuData = [
         "id": "cc1",
         "name": "Cold Coffee",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1571328003758-4a3921661729?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Chilled coffee delight",
         "isBestSeller": true
       },
@@ -633,7 +633,7 @@ export const menuData = [
         "id": "cc2",
         "name": "Thick Cold Coffee",
         "price": 99,
-        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1571328003758-4a3921661729?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Extra thick & creamy coffee",
         "isBestSeller": true
       },
@@ -641,7 +641,7 @@ export const menuData = [
         "id": "cc3",
         "name": "Cold Coffee with Crush",
         "price": 99,
-        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1571328003758-4a3921661729?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Coffee topped with crush",
         "isBestSeller": false
       },
@@ -649,7 +649,7 @@ export const menuData = [
         "id": "cc4",
         "name": "Cold Coffee with Ice Cream",
         "price": 109,
-        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop",
+        "image": "https://images.unsplash.com/photo-1571328003758-4a3921661729?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Coffee with vanilla ice cream",
         "isBestSeller": false
       }
